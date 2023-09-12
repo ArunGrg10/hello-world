@@ -1,0 +1,16 @@
+#list methods
+numberss = [2, 53, 5, 4, 6, 45, 5, 53]
+print(numberss)
+numberss.append(40)
+numberss.remove(5)
+numberss.insert(5, 3243)
+numberss.reverse()
+numberss.pop()
+print(numberss)
+print(numberss.index(53))
+print(543 in numberss )
+print(numberss.count(53))
+numberss.sort()
+print(numberss)
+numberss.reverse()
+print(numberss)
